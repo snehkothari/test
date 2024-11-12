@@ -1,0 +1,53 @@
+{
+    "sections": [
+        {
+            "title": "Streamed — Trailers",
+            "items": [
+                {
+                    "title": "Ted Lasso",
+                    "description": "2.00:1",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/738x416.webp",
+                    "url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1571413984&isExternal=true&brandId=tvs.sbd.4000&id=293845602&l=en-US&aec=UHD&bingeWatching=false&dsid=278614036"
+                },
+                {
+                    "title": "Snoopy in Space",
+                    "description": "snoopy — 16:9",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/738x416.webp",
+                    "url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1522069366&isExternal=true&brandId=tvs.sbd.4000&id=340487928&l=en-US&aec=UHD"
+                },
+                {
+                    "title": "Sonic",
+                    "description": "2.40:1",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/6a/92/67/6a9267c7-ffd2-4b25-6c83-b9f7f746a18f/pr_source.lsr/738x416.webp",
+                    "url": "https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/playlist.m3u8?cc=US&a=1496058930&id=64006275&l=en&aec=HD"
+                },
+                {
+                    "title": "Severance",
+                    "description": "2.40:1",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp",
+                    "url": "https://play-edge.itunes.apple.com/WebObjects/MZPlayLocal.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1601844077&isExternal=true&brandId=tvs.sbd.4000&id=518064335&l=en-US&aec=UHD"
+                },
+                {
+                    "title": "Toy Story",
+                    "description": "4:3",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/de/0e/ed/de0eedbc-0e72-78e0-834a-1d9c6afd62f4/pr_source.lsr/738x416.webp",
+                    "url": "https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/playlist.m3u8?cc=US&a=188703840&id=51714610&l=en-US&aec=HD"
+                },
+                {
+                    "title": "Trolls",
+                    "description": "2.40:1",
+                    "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/4f/01/09/4f01097f-0771-9bd0-d147-00ab31079fc2/Trolls_3840x2160_CoverArt.lsr/738x416.webp",
+                    "url": "https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/playlist.m3u8?cc=US&a=1502943464&id=64914688&l=en-US&aec=HD"
+                },
+                {
+                    "title": "Avatar (3D)",
+                    "url": "https://imr-test-01.edge.apple.com/vod/3D/lIoF6tqi/primary.m3u8"
+                },
+                {
+                    "title": "Kong: Skull Island",
+                    "url": "https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/playlist.m3u8?cc=US&a=1209705645&id=42263265&l=en-US&aec=HD"
+                }
+            ]
+        }
+  ]
+}
