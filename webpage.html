@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Fullscreen: test page</title>
+  <script>
+    async function toggleFullScreen(element) {
+        var mode = element.webkitPresentationMode;
+        if (!element.fullscreenElement) {
+            if (!!element.requestFullscreen)
+                await element.requestFullscreen();
+            else if (!!element.webkitEnterFullscreen)
+                element.webkitEnterFullscreen();
+        }
+        else if (document.exitFullscreen)
+            document.exitFullscreen();
+    }
+
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    window.onload = async function() {
+        video1.src = "https://cali.apple.com/MoreMedia/visionpro/apmp/jonl_apmp/canon_converted_mono180_clear/main.m3u8";
+        video1.preload = "auto";
+
+        let button1 = document.createElement("BUTTON");
+        button1.innerText = "Video Fullscreen";
+        videocontainer1.appendChild(button1);
+        button1.onclick = toggleFullScreen.bind(null, video1);
+
+        let button2 = document.createElement("BUTTON");
+        button2.innerText = "Div Element Fullscreen";
+        videocontainer1.appendChild(button2);
+        button2.onclick = toggleFullScreen.bind(null, videodiv1);
+    }
+    </script>
+<body>
+    <div id="videocontainer1">
+        <div id="videodiv1" style="width: 320px; height: 240px">
+            <video id='video1' style="object-fit: cover;" width="100%" height="100%" playsinline loop controls></video>
+        </div>
+    </div>
+</body>
+</html>
